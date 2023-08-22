@@ -6,21 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeongin의 TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- 윗 부분 -->
     <header id="top">
-        TODO LIST
-        <input type="text" placeholder="할 일을 입력하세요">
-        <input type="button" value="+">
+        <h1>TODO LIST</h1>
+        <input id="inputBox" type="text" placeholder="할 일을 입력하세요">
+        <input onclick="addList()" id="addButton" type="button" value="+">
     </header>
 
     <!-- List 부분 -->
     <section id="list">
-        <ul class="list-ul"></ul>
+        <ul id="list_Ul"></ul>
     </section>
+
+    <script src="main.js" defer></script>
 </body>
 
 </html>
