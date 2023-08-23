@@ -27,6 +27,7 @@ header {
 }
 
 li {
+    position: relative;
     list-style-type: none;
     border: 2px gray solid;
     background-color: beige;
@@ -40,6 +41,13 @@ li:hover {
 
 li.completed {
     text-decoration: line-through;
+}
+
+/* List 안에 있는 Delete 버튼 */
+li>button {
+    position: absolute;
+    margin: 0;
+    right: 1%;
 }
 
 /*
