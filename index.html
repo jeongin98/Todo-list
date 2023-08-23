@@ -10,19 +10,17 @@
 </head>
 
 <body>
-
     <!-- 윗 부분 -->
     <header id="top">
         <h1>TODO LIST</h1>
-        <input id="inputBox" type="text" placeholder="할 일을 입력하세요">
+        <input id="inputBox" type="text" placeholder="할 일을 입력하세요" onkeyup="if(window.event.keyCode==13){addList()}">
         <input onclick="addList()" id="addButton" type="button" value="+">
     </header>
 
     <!-- List 부분 -->
-    <section id="list">
+    <section id="listSection">
         <ul id="list_Ul"></ul>
     </section>
-
     <script src="main.js" defer></script>
 </body>
 

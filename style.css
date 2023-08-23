@@ -1,0 +1,49 @@
+body {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+header {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+}
+
+#listSection {
+    display: inline-block;
+    width: 50%;
+    height: -100%;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+
+}
+
+#list_Ul {
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    border: 2px gray solid;
+    background-color: beige;
+    margin-top: 1px;
+    width: 500px;
+}
+
+li:hover {
+    background-color: aquamarine;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+/*
+.addButton {
+    border: none;
+}
+*/
